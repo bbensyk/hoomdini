@@ -7,7 +7,7 @@ HOOMD3 simulations of escape panic in a 2D box.
   - Active Brownian Particles
   - Active Brownian with Bias towards exit 
 - Customizable particle starting locations based on density for both square and hexagonal packing
-- Placement of static particles to be used as either doors or obsticals
+- Placement of static particles to be used as either doors or obstacle 
 - Exclusion of particles that have escaped through the walls
 - Tracks the number of escaped particles over time and saves into a .csv 
 - Tracks the avergae local density of active particles over time and saves to a .csv
