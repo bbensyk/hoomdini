@@ -19,7 +19,17 @@ HOOMD3 simulations of escape panic in a 2D box.
 - For now the bias operator uses a for loop which is discuraged for the HOOMD custom operators due to time it takes to run. Needs optimization.
 
 
+
+
 # Code Structure
 I have attempted to keep my code heavily commented and have included a quick break down of the structure. 
+
+### Breakdown of Modules:
+- hoomdini: (Exclusion Updater) Once the particle leaves the exit(x>0), it moves the particle to the far side of the box(x=22), and changes its type ID
+- particlePlacer: (Square packing Function) Places particles using square packing.
+- placer: (Hexagonal packing function) Places particles using hexagonal packing.
+- rereorient: (Bias Updater) Adds bias towards the door by changing each particle's orientation.
+- reorient: (Bias Updater) Attempts to modify the bias updater to include assymetric vision and a lower depth of vision(WIP). 
+- trampling: (Trampling Updater) Finds local density using freud.locality.Voronoi() and tracks high density regions, and average local density per time step.
 
 ![HoomdiniBreakdown](HoomdiniBreakdown.png)
