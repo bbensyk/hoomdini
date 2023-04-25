@@ -32,4 +32,6 @@ I have attempted to keep my code heavily commented and have included a quick bre
 - reorient: (Bias Updater) Attempts to modify the bias updater to include assymetric vision and a lower depth of vision(WIP). 
 - trampling: (Trampling Updater) Finds local density using freud.locality.Voronoi() and tracks high density regions, and average local density per time step.
 
+
+### Diagram:
 ![HoomdiniBreakdown](HoomdiniBreakdown.png)
