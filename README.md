@@ -16,8 +16,10 @@ HOOMD3 simulations of escape panic in a 2D box.
 - The density tracker currently requires a large amount of memory. Other density trackers are possible, but the simulations take longer to run
 - The hexagonal packing module is only set up for the highest density. Further work needs to be preformed to make it variable
 - I worked on creating a vision based bias for module which is about 80% complete but needs further work
+- For now the bias operator uses a for loop which is discuraged for the HOOMD custom operators due to time it takes to run. Needs optimization.
 
 
 # Code Structure
 I have attempted to keep my code heavily commented and have included a quick break down of the structure. 
 
+![HoomdiniBreakdown](HoomdiniBreakdown.png)
