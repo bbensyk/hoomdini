@@ -39,7 +39,11 @@ I have attempted to keep my code heavily commented and have included a quick bre
 ![HoomdiniBreakdown](HoomdiniBreakdown.png)
 
 
-## Part 2: Processing File:
+## Part 2: Examples Files:
+
+Demonstrates how the main.py files should be restructure in either the purely brownain or active brownian cases. 
+
+## Part 3: Processing File:
 
 ### Plotting Help
 
