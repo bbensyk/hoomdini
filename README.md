@@ -1,7 +1,7 @@
 # hoomdini
 HOOMD3 simulations of escape panic in a 2D box.
 
-##Part 1: Code file:
+## Part 1: Code file:
 ### Cabilities of the code contained within this repository: 
 - Varied particle types
   - Purely Brownian Particles 
