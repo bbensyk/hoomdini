@@ -1,6 +1,7 @@
 # hoomdini
 HOOMD3 simulations of escape panic in a 2D box.
 
+## Part 1: Code file:
 ### Cabilities of the code contained within this repository: 
 - Varied particle types
   - Purely Brownian Particles 
@@ -36,3 +37,14 @@ I have attempted to keep my code heavily commented and have included a quick bre
 ### Diagram:
 
 ![HoomdiniBreakdown](HoomdiniBreakdown.png)
+
+
+## Part 2: Processing File:
+
+### Plotting Help
+
+This is example python code for processing the outputted CSV files using Pandas and matplotlib. Examples on how to make both scatter plots and heat maps from the data. 
+
+### Video state
+
+This is the session state I was using with ovito. Load this file along with a run___.gsd file into the ovito app, and you can create videos I was using. 
